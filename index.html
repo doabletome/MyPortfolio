@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="font-nunito h-screen ">
+    <!-- <intro dection -->
+    <header class="w-full ">
+      <!-- nav -->
+      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="container mx-auto py-5 flex items-center justify-around">
+          <div class="flex justify-center items-center gap-2">
+            <img
+              class="h-12 w-14 rounded-full"
+              src="./image/plogo.png"
+              alt="logo"
+            />
+            <span class="text-2xl font-bold text-indigo-900 dark:text-white">Portfolio.</span>
+          </div>
+          <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm">
+            <li class="hover:text-gray-500">
+              <a href="#top">Homepage</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#about">About me</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#certificates">Certificates</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#services">Services</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#projects">Works</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- dark mode btn -->
+          <img
+          id="darkmood"
+            src="./image/moon3.png"
+            alt="moon"
+            class="hidden md:block w-8 h-19 cursor-pointer hover:scale-110 hover:shadow-xl"
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-700 absolute top-0 left-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
+          >
+            <li>
+              <a class="hlink" href="#top">Homepage</a>
+            </li>
+            <li>
+              <a class="hlink" href="#about">About me</a>
+            </li>
+            <li >
+              <a class="hlink" href="#skills">Skills</a>
+            </li>
+            <li >
+              <a class="hlink" href="#certificates">Certificates</a>
+            </li>
+            <li>
+              <a class="hlink" href="#services">Services</a>
+            </li>
+            <li>
+              <a class="hlink" href="#projects">Works</a>
+            </li>
+            <li>
+              <a class="hlink" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="relative">
+      <!-- intro -->
+      <section
+        class="md:h-screen xs:h-1/2 xs:mt-20 md:mt-0 sm:w-screen flex items-center md:justify-center justify-around md:gap-11 w-full bg-gradient-to-t from-indigo-300 dark:from-slate-800 dark:to-slate-900 overflow-hidden"
+      >
+        <img
+          src="./image/himanshu1 (1)-Photoroom.png"
+          class="w-48 h-48 md:w-96 md:h-96 shadow-md dark:shadow-slate-800 animate-zoomIn"
+          alt=""
+        />
+        <div class="flex flex-col gap-6">
+          <span
+            class="text-3xl font-bold hover:animate-bounce text-shadow-md md:text-4xl dark:text-cyan-100"
+            >Himanshu Patle</span
+          >
+          <span class="text-gray-600 text-3xl font-bold">Freelance</span>
+          <p id="text" class="text-red-500  text-3xl font-bold"></p>
+          <a href="./Himanshu_patle_resume0.pdf"
+               download="Himanshu_Patle_Resume.pdf"
+              class="inline-block mt-4 shadow-xl hover:opacity-80 hover:scale-110  bg-emerald-300 text-white text-xl px-2  rounded-md font-semibold w-fit dark:bg-slate-500"
+    >
+      Download Resume
+    </a>
+        </div>
+        <div
+          class="hidden md:block w-96 h-fit bg-indigo-200 p-3 rounded-lg shadow-lg dark:bg-slate-900 dark:shadow-slate-800"
+        >
+          <p class="text-gray-600">
+            "With expertise in web design and development, I create innovative,
+            user-friendly websites that drive engagement and deliver results."
+          </p>
+          <div class="flex gap-3 social">
+          <a href="https://www.facebook.com/himanshu.patle.9235/" ><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/himanshu_patle_/" ><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/doabletome"  ><i class="fa-brands fa-github"></i></a>
+          <a href="www.linkedin.com/in/himanshu-patle-205411221" ><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+          <a
+            href="#contact"
+            class="bg-emerald-300 shadow-xl text-white text-xl px-3 rounded-md font-semibold w-fit dark:bg-slate-500"
+            >Hire me</a
+          >
+        </div>
+      </section>
+
+      <!-- about me -->
+
+      <section id="about" class="xs:px-10 dark:bg-slate-900">
+        <div
+          class="container mx-auto py-28 flex xs:flex-col-reverse md:flex-row gap-20 items-center"
+        >
+          <div class="relative flex-shrink-0">
+            <img
+              class="h-1/2 absolute top-0 left-0 -z-10"
+              src="./image/dots.png"
+              alt=""
+            />
+            <div
+              class="rounded-full overflow-hidden md:h-96 md:w-72 xs:h-44 xs:w-40 xs:gap-2"
+            >
+              <img src="./image/bs1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="my-auto flex flex-col gap-3">
+            <h1 class="text-indigo-600 font-bold">About me</h1>
+            <h1 class="text-3xl font-medium dark:text-white animate-bounce">Better Design</h1>
+            <h1 class="text-3xl font-medium dark:text-white animate-bounce">Better Experience</h1>
+            <p class="text-gray-400">
+              I design and build digital products. I'm also a multi-disciplinary
+              maker with over 2 years of experince in wide range of design
+              disciplines.My expertise lies in designing interfaces that are not only visually appealing but also simple and intuitive to use. I focus on developing websites that enhance user experience and engagement. Whether it's a small business or a personal project, I strive to deliver high-quality, functional designs that meet the needs of my clients.
+            </p>
+            <p id="moreText" class="text-gray-400 hidden">
+               I graduated from Jiwaji University in Gwalior with a CGPA of 7.2. During my studies, I developed a strong foundation in web development, specializing in the MERN stack. My projects showcase my ability to create dynamic and responsive applications, leveraging my skills in MongoDB, Express, React, and Node.js. I am dedicated to continuously learning and staying updated with the latest industry trends to deliver cutting-edge solutions.
+                </p>
+             <button
+                 id="readMoreBtn"
+                 class="text-indigo-600 font-semibold"
+                   onclick="toggleReadMore()"
+                              >
+        Read more
+      </button>
+            
+          </div>
+        </div>
+      </section>
+
+      
+        <!-- Skills Section -->
+         <section id="skills" class="py-28 dark:bg-slate-900 dark:text-white">
+    <div class="container  flex flex-col items-center">
+      <h1 class="text-indigo-600 font-extrabold mb-12">My Skills</h1>
+      <div class="w-1/2 mx-20 flex flex-col shadow-lg p-7 gap-6">
+        <div>
+          <h2 class="text-gray-400 font-medium">HTML / CSS</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/5 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-gray-400 font-medium">JavaScript</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-gray-400 font-medium">MERN Stack</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-gray-400 font-medium">C++</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/5 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-gray-400 font-medium">Data Structures & Algorithm</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-gray-400 font-medium">Java</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-gray-400 font-medium">DBMS</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-3/5 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+         </section>
+
+         <!-- certificate -->
+         <section id="certificates" class="dark:bg-slate-900 pt-16">
+  <div class="container mx-auto">
+    <!-- top -->
+    <div class="flex flex-col gap-3 items-center">
+      <h1 class="text-indigo-600 font-bold">Certificates</h1>
+      <h1 class="text-3xl dark:text-white">My Achievements</h1>
+      <p class="w-1/2 text-center text-gray-400">
+        Here are some of the certificates I have earned throughout my learning journey.
+      </p>
+    </div>
+
+    <!-- bottom -->
+    <div class="p-10 flex flex-wrap gap-3 justify-center">
+      <!-- card 1 -->
+      <div
+        class="dark:bg-slate-800  card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+      >
+        <div class="flex flex-col gap-2">
+          <h1 class="font-medium text-lg dark:text-white">Full Stack Web Development</h1>
+          <p class="text-gray-400">
+            Earned a certificate for completing a comprehensive Full Stack Web Development course, mastering the MERN stack.
+          </p>
+          <a href="./delta.pdf" target="_blank" class="text-indigo-600 font-semibold text-sm"
+            >View</a
+          >
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div
+        class="dark:bg-slate-800  card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+      >
+        <div class="flex flex-col gap-2">
+          <h1 class="font-medium text-lg dark:text-white">Engineer Trainee</h1>
+          <p class="text-gray-400">
+            Received a certificate for completing two months internship/Training from BHEL Bhopal, demonstrating proficiency in problem-solving.
+          </p>
+          <a href="./training certificate.pdf" target="_blank" class="text-indigo-600 font-semibold text-sm"
+            >View</a
+          >
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div
+        class="dark:bg-slate-800  card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+      >
+        <div class="flex flex-col gap-2">
+          <h1 class="font-medium text-lg dark:text-white">C++ Programming</h1>
+          <p class="text-gray-400">
+            Completed a C++ programming course, earning a certificate that highlights my proficiency in the language.
+          </p>
+          <a href="./coding for everyone c and c++.pdf" target="_blank" class="text-indigo-600 font-semibold text-sm"
+            >View</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+        </section>
+
+
+
+
+      <!-- services -->
+      <section id="services" class="dark:bg-slate-900 pt-16">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-bold">SERVICES</h1>
+            <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+            <p class="w-1/2 text-center text-gray-400">
+              My approach to website design is to create a website that
+              strengthens your company's brand while ensuring ease of use and
+              simplicity for your audience.
+            </p>
+          </div>
+
+          <!-- bottom -->
+          <div class="p-20 flex flex-wrap justify-center ">
+            <!-- cards -->
+            <div
+              class=" dark:bg-slate-800 card-t w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col bg-white items-center gap-3"
+            >
+              <img
+                src="./image/database.png"
+                class="h-10 w-10 rounded-full"
+                alt=""
+              />
+              <h1 class="font-medium text-lg dark:text-white">DataBase</h1>
+              <p class="text-gray-400">I offer robust database solutions, ensuring data integrity and efficient retrieval. My expertise includes SQL and NoSQL databases, tailored to meet your specific needs.</p>
+
+              <a href="#" class="text-indigo-600 font-semibold text-sm"
+                >Read more</a
+              >
+            </div>
+            <!-- cards -->
+            <div
+              class=" dark:bg-slate-800 card-t w-full md:w-4/12 shadow-xl  bg-white rounded-lg p-5 flex flex-col items-center gap-3"
+            >
+              <img
+                src="./image/webdev.png"
+                class="h-10 w-10 rounded-full"
+                alt=""
+              />
+              <h1 class="font-medium text-lg dark:text-white">Wed Dev</h1>
+              <p class="text-gray-400">I develop high-performance websites using the latest technologies. My specialty lies in creating scalable and maintainable web applications with a focus on functionality.</p>
+
+              <a href="#" class="text-indigo-600 font-semibold text-sm"
+                >Read more</a
+              >
+            </div>
+            <!-- cards -->
+            <div
+              class="dark:bg-slate-800 card-t w-full  bg-white md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col items-center gap-3"
+            >
+              <img
+                src="./image/webdesign.png"
+                class="h-10 w-10 rounded-full"
+                alt=""
+              />
+              <h1 class="font-medium text-lg dark:text-white">Web Design</h1>
+              <p class="text-gray-400">I create visually appealing and user-friendly designs that enhance user experience. My focus is on simplicity and elegance to make your website stand out.</p>
+
+              <a href="#" class="text-indigo-600 font-semibold text-sm"
+                >Read more</a
+              >
+            </div>
+            <!-- cards -->
+            <div
+              class="dark:bg-slate-800 card-t w-full md:w-4/12  bg-white shadow-xl rounded-lg p-5 flex flex-col items-center gap-3"
+            >
+              <img
+                src="./image/analysis.png"
+                class="h-10 w-10 rounded-full"
+                alt=""
+              />
+              <h1 class="font-medium text-lg dark:text-white">Analysis</h1>
+              <p class="text-gray-400">I provide comprehensive data analysis services to help you make informed decisions. My skills include statistical analysis, data visualization, and actionable insights.</p>
+
+
+              <a href="#" class="text-indigo-600 font-semibold text-sm"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="dark:bg-slate-900 pt-20">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-bold">Portfolio</h1>
+            <h1 class="text-3xl dark:text-white">Works And Projects</h1>
+            <p class="w-1/2 text-center text-gray-400">
+              I help designers, small agencies and businesses bring their ideas
+              to life.
+            </p>
+          </div>
+
+          <!-- bottom -->
+          <div class="p-10 flex flex-wrap gap-3 justify-center">
+            <!-- cards -->
+            <div
+              class="bg-white dark:bg-slate-800 card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+            >
+              <img
+                src="./image/connectify.png"
+                class="h-1/2 w-1/2 rounded-full"
+                alt=""
+              />
+              <div class="flex flex-col gap-2">
+                <h1 class="font-medium text-lg dark:text-white">Connectify</h1>
+                <p class="text-gray-400">
+                  I developed a chat application using the MERN stack, featuring
+                  real-time notifications, group chats, and secure
+                  authentication.
+                </p>
+                <a href="#" class="text-indigo-600 font-semibold text-sm"
+                  >Read more</a
+                >
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/posts/himanshu-patle-205411221_mern-reactjs-nodejs-activity-7206744340264546304-Zo60?utm_source=share&utm_medium=member_desktop"
+                  class="text-blue-500 font-semibold text-sm bg-black rounded-md w-fit px-3 py-1"
+                  >View</a
+                >
+              </div>
+            </div>
+            <!-- cards -->
+            <div
+              class=" bg-white dark:bg-slate-800 card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+            >
+              <img
+                src="./image/wanderlust.png"
+                class="h-1/2 w-1/2 rounded-full"
+                alt=""
+              />
+              <div class="flex flex-col gap-2">
+                <h1 class="font-medium text-lg dark:text-white">Wanderlust</h1>
+                <p class="text-gray-400">
+                  I developed an e-commerce site for renting and vacationing
+                  similar to Airbnb, showcasing property listings, booking
+                  management, and secure payments.
+                </p>
+                <a href="#" class="text-indigo-600 font-semibold text-sm"
+                  >Read more</a
+                >
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/posts/himanshu-patle-205411221_fullstackdevelopment-webapplication-projectshowcase-activity-7181900829174480896-tVZq?utm_source=share&utm_medium=member_desktop"
+                  class="text-blue-500 font-semibold text-sm bg-black rounded-md w-fit px-3 py-1"
+                  >View</a
+                >
+              </div>
+            </div>
+            <!-- cards -->
+            <div
+              class=" bg-white dark:bg-slate-800 card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+            >
+              <img
+                src="./image/snake.jpeg"
+                class="h-1/2 w-1/2 rounded-full"
+                alt=""
+              />
+              <div class="flex flex-col gap-2">
+                <h1 class="font-medium text-lg dark:text-white">Snake game</h1>
+                <p class="text-gray-400">
+                  I created a casual snake game using only C++, demonstrating my
+                  skills in game development and C++ programming.
+                </p>
+                <a href="#" class="text-indigo-600 font-semibold text-sm"
+                  >Read more</a
+                >
+              </div>
+            </div>
+            <!-- cards -->
+            <div
+              class=" bg-white dark:bg-slate-800 card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+            >
+              <img
+                src="./image/spo.png"
+                class="h-1/2 w-1/2 rounded-full"
+                alt=""
+              />
+              <div class="flex flex-col gap-2">
+                <h1 class="font-medium text-lg dark:text-white">Snake game</h1>
+                <p class="text-gray-400">
+                  I created a Spotify clone with HTML and CSS, showcasing an elegant user interface and responsive design for music browsing and playback.
+                </p>
+                <a href="#" class="text-indigo-600 font-semibold text-sm"
+                  >Read more</a
+                >
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/posts/himanshu-patle-205411221_bharatintern-webdevelopment-activity-7087865534213500928-U1BW?utm_source=share&utm_medium=member_desktop"
+                  class="text-blue-500 font-semibold text-sm bg-black rounded-md w-fit px-3 py-1"
+                  >View</a
+                >
+
+              </div>
+            </div>
+            <!-- cards -->
+            <div
+              class=" bg-white dark:bg-slate-800 card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+            >
+              <img
+                src="./image/amazon.png"
+                class="h-1/2 w-1/2 rounded-full"
+                alt=""
+              />
+              <div class="flex flex-col gap-2">
+                <h1 class="font-medium text-lg dark:text-white">Amazon Clone</h1>
+                <p class="text-gray-400">
+                 I developed an Amazon clone with HTML and CSS, featuring a clean and responsive layout for product browsing and user interactions.
+                </p>
+                <a href="#" class="text-indigo-600 font-semibold text-sm"
+                  >Read more</a
+                >
+              </div>
+            </div>
+            <!-- cards -->
+            <div
+              class="bg-white dark:bg-slate-800 card-t w-full md:w-5/12 shadow-xl rounded-lg p-5 flex xs:flex-col md:flex-row items-center gap-3"
+            >
+              <img
+                src="./image/weather.png"
+                class="h-1/2 w-1/2 rounded-full"
+                alt=""
+              />
+              <div class="flex flex-col gap-2">
+                <h1 class="font-medium text-lg dark:text-white">Temperature Converter</h1>
+                <p class="text-gray-400">
+                  I developed a temperature converter using HTML, CSS, and JavaScript, offering an intuitive interface for converting temperatures between Celsius and Fahrenheit.
+                </p>
+                <a href="#" class="text-indigo-600 font-semibold text-sm"
+                  >Read more</a
+                >
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/posts/himanshu-patle-205411221_webdevelopment-javascript-html-activity-7092220868809957378-Y3IY?utm_source=share&utm_medium=member_desktop"
+                  class="text-blue-500 font-semibold text-sm bg-black rounded-md w-fit px-3 py-1"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="dark:bg-slate-900 pt-20">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-bold">Contact</h1>
+            <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+            <p class="w-1/2 text-center text-gray-400">
+              Do you have an idea? Let's discuss it see what we can do together.
+            </p>
+          </div>
+
+          <!-- bottom -->
+          <form action="" class="mt-10 p-8 flex flex-col gap-5 items-center">
+            <input
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-md dark:bg-slate-800"
+              type="text"
+              placeholder="Name Surname"
+              name=""
+              id=""
+            />
+            <input
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-md  dark:bg-slate-800"
+              type="email"
+              placeholder="Email"
+              name=""
+              id=""
+            />
+            <textarea
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-md  dark:bg-slate-800"
+              name=""
+              id=""
+              cols="10"
+              rows="10"
+              placeholder="Message..."
+            ></textarea>
+            <button
+              class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 cursor-pointer rounded-md"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="px-10 w-full bg-gray-800">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex justify-center items-center gap-2">
+          <img
+            class="h-12 w-14 rounded-full"
+            src="./image/plogo.png"
+            alt="logo"
+          />
+          <span class="text-2xl font-bold text-white">Portfolio.</span>
+        </div>
+        <span class="hidden md:block font-medium text-white">@2024 Portfolio. Design with &#9829 by Himanshu Patle</span>
+       
+        <div class="flex gap-3 social">
+          <a href="https://www.facebook.com/himanshu.patle.9235/" ><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/himanshu_patle_/" ><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/doabletome"  ><i class="fa-brands fa-github"></i></a>
+          <a href="www.linkedin.com/in/himanshu-patle-205411221" ><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+
+        <div >
+          <button class="btn-d">Call</button>
+          <button class="btn-d"> Email</button>
+        </div>
+        
+        
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+    <script src="autotyping.js"></script>
+  </body>
+</html>
